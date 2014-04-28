@@ -1,0 +1,7 @@
+applications:
+- name: psd
+  memory: 512M
+  host: psd
+  domain: cfapps.io
+  path: /target/psd-0.0.1-SNAPSHOT.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack  
